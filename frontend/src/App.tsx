@@ -344,7 +344,7 @@ class Card extends React.Component < {school: string, name: string, city: string
 
     return(
       <div>
-        <h2>School Name: dict{oneBasketball.school}</h2>
+        <h2>School Name: {oneBasketball.school}</h2>
         <h3>Mascot Name: {oneBasketball.name}</h3>
         <h3>Location: {oneBasketball.city}, {oneBasketball.state}</h3>
       </div>
